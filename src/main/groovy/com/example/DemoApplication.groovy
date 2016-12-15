@@ -16,5 +16,6 @@ class DemoApplication implements CommandLineRunner {
 	@Override
 	void run(String... args) throws Exception {
 		log.info 'Hello, world!'
+        log.info 'Go Speed Racer Go'
 	}
 }

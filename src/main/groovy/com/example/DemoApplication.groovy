@@ -20,5 +20,7 @@ class DemoApplication implements CommandLineRunner {
         (100..0).each {
             log.info it
         }
+
+		assert 'Steve Good'.reverse() == 'dooG evetS'
 	}
 }

@@ -22,5 +22,6 @@ class DemoApplication implements CommandLineRunner {
         }
 
 		assert 'Steve Good'.reverse() == 'dooG evetS'
+		print "Hello!".chars().sum()
 	}
 }

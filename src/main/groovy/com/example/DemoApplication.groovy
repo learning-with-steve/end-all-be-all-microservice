@@ -15,6 +15,9 @@ class DemoApplication implements CommandLineRunner {
 
 	@Override
 	void run(String... args) throws Exception {
-		log.info 'Hello, world!'
+		log.debug "The time is now ${new Date()}"
+		while(true) {
+			println "You're mine now!"
+		}
 	}
 }

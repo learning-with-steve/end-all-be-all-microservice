@@ -17,8 +17,6 @@ class DemoApplication implements CommandLineRunner {
 	void run(String... args) throws Exception {
         log.info 'Go Speed Racer Go'
 		log.debug "The time is now ${new Date()}"
-		while(true) {
-			println "You're mine now!"
-		}
+		print "Hello!".chars().sum()
 	}
 }
